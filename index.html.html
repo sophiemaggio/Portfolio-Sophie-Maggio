@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="folio2.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <title>somaggioportfolio</title>
+
+     <!--On inclut la librairie jQuery-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <!--On inclut le lien du code jQuery qui se trouve dans le dossier-->   
+    <script src="jqfolio.js"></script>
+
+
+</head>
+<body>
+
+<!-- --------------Bouton revenir en haut----------------------------- --><!-- en haut-->
+    <a  onclick="topFunction()" id="myBtn" title="Go to top"></a>
+
+<!-- --------------header----------------------------- --><!-- navbar-->
+    <header>
+        <div class="logo"><img src="images/sook6.svg" alt="graphisme de mon nom prénom SO en gros"></div>
+        <div class="logomobile"><img src="images/sook6_mobile.svg" alt="graphisme de mon nom prénom SO en gros format pour mobile"></div>
+
+    <nav class="navbar">
+        <button class="navbar-burger" id="burger" role="button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <ul class="navbar-dropdown-menu" id="dropdown">
+        <li class="navbar-menu-elt">
+            <a class="navbar-menu-item" href="#">Print</a>	
+        </li>
+        <li class="navbar-menu-elt">
+            <a class="navbar-menu-item" href="#direct_au_web">Web</a>		
+        </li>
+        <li class="navbar-menu-elt">
+            <a class="navbar-menu-item" href="#autoportrait flex">Qui suis-je ?</a>	
+        </li>
+        <li class="navbar-menu-elt">
+            <a class="navbar-menu-item" href="#adresse">contact</a>	
+        </li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- --------------2 eme slider----------------------------- --><!-- slider-->
+
+<h1 style="text-align:center">Galerie</h1>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="images/grandesphotos/deliziosa_moodbord.png" style="width:100%"  alt="Planche du moodbord réalisée pour restaurant deliziosa">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="images/grandesphotos/logodeliiosagd.png" style="width:100%" alt="logo réalisé pour restaurant deliziosa">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="images/grandesphotos/deliziosamisesituation.png" style="width:100%" alt="le logo pour restaurant deliziosa mise en situation">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="images/grandesphotos/deliziosasurvitre.png" style="width:100%"alt="le logo pour restaurant deliziosa sur vitre">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="images/grandesphotos/setdetablebuffetwokgd.png" style="width:100%"alt="set de table pour restau buffet wok">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="images/grandesphotos/buffetwokcartede fideliteàpliergd.png" style="width:100%"alt="carte de fidélité pour restau buffet wok">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/grandesphotos/deliziosa_moodbord.png" style="width:100%" onclick="currentSlide(1)" alt="Moodboard Deliziosa">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/grandesphotos/logodeliiosagd.png" style="width:100%" onclick="currentSlide(2)" alt="Logo Deliziosa">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/grandesphotos/deliziosamisesituation.png" style="width:100%" onclick="currentSlide(3)" alt="Déclinaisons et mises en situation du logo Déliziosa">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/grandesphotos/deliziosasurvitre.png" style="width:100%" onclick="currentSlide(4)" alt="Lettrage vitrine Déliziosa">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/grandesphotos/setdetablebuffetwokgd.png" style="width:100%" onclick="currentSlide(5)" alt="Set de table Buffet Wok">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="images/grandesphotos/buffetwokcartede fideliteàpliergd.png" style="width:100%" onclick="currentSlide(6)" alt="Carte de fidélité restaurant Buffet Wok">
+    </div>
+  </div>
+</div>
+            <!-- <a onclick="plusSlides(- 1)" href="#" class="prev fas fa-angle-left"></a>
+            <a onclick="plusSlides(1)" href="#" class="next fas fa-angle-right"></a> -->
+        <!-- </div>
+    </div>
+</div> -->
+
+
+<!-- --------------3 soprint---------------------------- -->
+
+<article>
+  <div id="logoprintweb">
+    <img src="images/so6print.svg" style="width: 100%" alt="logo soprint">
+    <h2>Côté restau</h2>
+  </div>
+<aside class="restau grid">
+  <img src="images/Flyer verso-Philippe-A5-1.jpg" style="width: 100%" alt="Flyer réalisé pour food truck o ptit plats dans les grands">
+  <img src="images/DEPLIANT hiver 2014-15-2-1.jpg"style="width:100%"alt="Flyer réalisé pour food truck o ptit plats dans les grands hiver">
+  <img src="images/DEPLIANT hiver 2014-15-2-2.jpg"style="width: 100%"alt="Flyer réalisé pour food truck o ptit plats dans les grands hiver">
+  <img src="images/SET DE TABLE-NGUYEN v2 HD.jpg" style="width: 100%"alt="set de table réalisé pour restau asia buffet à volonté">
+  <img src="images/04-0235-LES 3 BRASSEURS-SM-1.jpg"style="width: 100%"alt="flyer recto pour les 3 brasseurs">
+  <img src="images/04-0235-LES 3 BRASSEURS-SM-2.jpg"style="width: 100%"alt="flyer verso pour les 3 brasseurs">
+  <img src="images/restau1.jpg" style="width: 100%"alt="flyer pour restau">
+  <img src="images/ID-SO-1605-015-V_resto.jpg" style="width: 100%" alt="flyer réalisé pour restau casa vostra verso">
+  <img src="images/restau9.jpg"style="width: 100%" alt="flyer réalisé pour restau casa vostra verso">
+</aside>
+</article>
+
+<article>
+    <div id="logoprintweb">
+      <img src="images/so6print.svg" style="width: 100%" alt="logo soprint">
+    <h2>Côté immo</h2>
+  </div>
+  <!-- <aside class="restau grid"> -->
+  <aside class="flex ff">
+      <img src="images/IMMO1.jpg" style="width: 100%" alt="flyer réalisé pour constructeur maison boivel">
+      <img src="images/IMMO2.jpg" style="width: 100%" alt="autre proposition pour flyer réalisé pour constructeur maison boivel">
+      <img src="images/IMMO3.jpg" style="width: 100%" alt="flyer réalisé pour credisud immo">
+      <img src="images/IMMO4.jpg" style="width: 100%" alt="flyer réalisé pour constructeur villas La provencale">
+      <img src="images/IMMO5.jpg" style="width: 100%" alt="autre proposition flyer réalisé pour constructeur villas La provencale">
+  </aside>
+  </article>
+  
+
+<article>
+    <div id="logoprintweb">
+      <img src="images/so6print.svg" style="width: 100%" alt="logo soprint">
+    <h2>Côté artisans</h2>
+  </div>
+  
+    <!-- <aside class="restau grid"> -->
+    <aside class="flex ff">
+    <img src="images/ARTISAN1.jpg" style="width: 100%" alt="Proposition flyer pour cuisiniste" >
+    <img src="images/ARTISAN2.jpg" style="width: 100%" alt="Proposition flyer pour menuisier alu" >
+    <img src="images/ARTISAN3.jpg" style="width: 100%" alt="Proposition flyer pour menuisier alu" >
+    <img src="images/ARTISAN4.jpg" style="width: 100%" alt="Proposition flyer pour cuisiniste" >
+    <img src="images/ARTISAN5.jpg" style="width: 100%" alt="Proposition flyer pour Foire au bois" >
+    <img src="images/ARTISAN6.jpg" style="width: 100%" alt="Proposition flyer pour menuisier alu">
+    <img src="images/ARTISAN7.jpg" style="width: 100%" alt="Proposition flyer pour couturiere" >
+    <img src="images/ARTISAN8.jpg" style="width: 100%" alt="Proposition flyer pour cheminee" >
+    <img src="images/ARTISAN9.jpg" style="width: 100%" alt="Proposition flyer pour parquet" >
+    <img src="images/ARTISAN10.jpg" style="width: 100%" alt="Proposition flyer pour menuisier pvc">
+    <img src="images/ARTISAN11.jpg" style="width: 100%" alt="Proposition flyer pour ferronnier" >
+    <img src="images/ARTISAN12.jpg" style="width: 100%" alt="Proposition flyer pour jardinier" >
+    </aside>
+  </article>
+
+  <article>
+      <div id="logoprintweb">
+          <img src="images/so6print.svg" style="width: 100%" alt="logo soprint">
+          <h2>Côté bien être</h2>
+        </div>
+      <aside class="flex ff">
+      <img src="images/BIENETRE1.jpg" style="width: 100%" alt="Proposition flyer pour institut bien etre">
+      <img src="images/BIENETRE2.jpg" style="width: 100%" alt="Proposition flyer pour parapharmie">
+      <img src="images/BIENETRE3.jpg" style="width: 100%" alt="Proposition flyer fete du livre">
+      </aside>
+    </article>
+
+    <article>
+        <div id="logoprintweb">
+            <img src="images/so6print.svg" style="width: 100%" alt="logo soprint">
+            <h2>Côté grande distribution</h2>
+          </div>
+        <aside class="restau grid">
+            <img src="images/07-024-DECATHLON-1.jpg" style="width: 100%" alt="flyer decathlon randonnée recto" >
+            <img src="images/07-024-DECATHLON-2.jpg" style="width: 100%" alt="flyer decathlon randonnée verso" >
+        <img src="images/pub/idee_pour_la_peche_aux_bonnes_affaires_liquidation.jpg" style="width: 100%" alt="Proposition flyer liquidation">
+        <img src="images/pub/ID-SO-1407-004-V-grande_distribution_mode.jpg" style="width: 100%" alt="Proposition flyer 3 jours printaniers">
+        <img src="images/pub/ID-SO-1708-001-V-grande_distribution_meuble.jpg" style="width: 100%" alt="Proposition flyer enseigne déco">
+        <img src="images/09-0213-MEUBLES D ART SAINT GEORGES-2.jpg" style="width: 100%" alt="flyer meubles st georges">
+        <img src="images/naurotogd.jpg" style="width: 100%" alt="publicité nauroto">
+        </aside>
+      </article>
+
+      <article>
+          <div id="logoprintweb"><img src="images/so6print.svg" style="width: 100%" alt="logo soprint">
+          <h2>Côté événementiel</h2>
+        </div>
+        
+          <aside class="restau grid">
+              <img src="images/AFFICHE FORUM 23 SEPTEMBRE CHATEAURENARD-3.jpg" alt="affiche flyer forum adapter son logement personnes agées" style="width: 100%">
+              <img src="images/FLYER FORUM 23 SEPTEMBRE CHATEAURENARD-2-1.jpg" alt="Programme forum adapter son logement personnes agées" style="width: 100%">
+          <img src="images/FLYER FORUM 23 SEPTEMBRE CHATEAURENARD-2-2.jpg" alt="Programme forum adapter son logement personnes agées" style="width: 100%">
+          <img src="images/FLYER A5 RECTO VERSO JOURNEE 22 SEPT-1.jpg" alt="affiche journée alzheimer" style="width: 100%">
+          <img src="images/CENTRE AERE MAIRIE.jpg" alt="affiche garderie du mercredi mairie de noves" style="width: 100%">
+          <img src="images/VILLARGELLE.jpg" alt="affiche pour centre de loisirs villargelle noves" style="width: 100%">
+          <img src="images/Dépliant 3 volets verso2.jpg" alt="programme des vacances pour centre aéré villargelle recto" style="width: 100%">
+          <img src="images/Dépliant 3 volets verso.jpg" alt="programme des vacances pour centre aéré villargelle verso" style="width: 100%">
+          <img src="images/evenement1.jpg" alt="Proposition affiche piece de theatre la vis sans chiffres" style="width: 90%">
+          </aside>
+        </article>
+
+        <article>
+            <div id="logoprintweb"><img src="images/sook6_WEB.svg"  id="direct_au_web" style="width: 100%" alt="logo soweb">
+            <h2>En cours de construction</h2>
+          </div>
+            <aside class="restau grid">
+                <img src="images/horizonenconstruction.jpg" alt="maquette réalisée sur figma" style="width: 150%">
+            </aside>
+          </article>
+  
+      
+
+<!-- --------------4 soweb---------------------------- -->
+
+
+
+
+<!-- --------------qui suis je---------------------------- -->
+<section id="autoportrait flex">
+  <img src="images/boutonquisuisje2.svg" class="imgqui" alt="graphic qui suis je " onclick="">
+  <img src="images/autoportrait_Shepard_Fairey.jpg"alt="autoportrait photoshop à la maniere de shepard failey" onclick="">
+  <img src="images/autoportrait_flat-2.svg"alt="autoportrait illustrator en flat design" onclick="" class="imgcentrer">
+  <img src="images/autoportrait_low_poly2.svg" alt="autoportrait illustrator façon low poly" onclick="">
+  <img src="images/autoportrait_photoshop.jpg" alt="autoportrait photoshop un peu de folie" onclick="">
+
+  <p>Infographiste durant les 20 dernières années dans l'imprimerie du Groupe Spir communication. <br>
+    Mon rôle consistait à gérer les clients et à collaborer avec eux dans la création et la conception de leurs supports de communication,
+    avec des impératifs de temps dûs à la chaîne graphique et à la diffusion finale.</p>
+      <p>Curieuse, polyvalente, j'écoute et synthétise les différentes demandes et besoins.</p>
+      
+              <p>Mes compétences</p> 
+              
+                  <p>Création graphique  <br> Suite Adobe : <br>indesign <br> Illustrator <br> Photoshop</p>
+                  <p>Intégraton Web  <br> HTML - CSS <br> Flexbox - Grid <br> CMS : Wordpress</p>
+    
+</section>
+
+
+
+        <!-- --------------footer contact---------------------------- -->
+
+
+<footer class="footer">
+    <p id="adresse">contact</p>
+    <p>31 rue des bourgades</p>
+    <p>13440 Cabannes</p>
+    <p>06 62 47 53 03</p>    
+    <p>email : sophiemaggio@gmail.com</p>
+
+
+    
+    
+
+
+</footer>
+
+
+
+<!-- <footer class="footer">contact</footer> -->
+</body>
+</html>
