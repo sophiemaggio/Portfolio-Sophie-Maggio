@@ -548,7 +548,7 @@ justify-content: center;
   margin: auto;
   } */
 
-  }
+  
   @media screen and (max-width: 600px){
     footer p a{
       font-size: 1.5rem;
