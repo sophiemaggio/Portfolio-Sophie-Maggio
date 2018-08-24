@@ -516,15 +516,17 @@ footer p{
   margin: 0.5rem;
 }
 
-.center{
+.center flex{
+display:flex;
 background: #2D3C43;
-width: 50%;
+padding: 10px;
+width: 100%;
 margin-top: 0;
 align-items: center;
 justify-content: center;
 }
 
-.contact-moi{
+/* .contact-moi{
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
@@ -544,7 +546,7 @@ justify-content: center;
   width: 100%;
   height: 20vh;
   margin: auto;
-  }
+  } */
 
   }
   @media screen and (max-width: 600px){
