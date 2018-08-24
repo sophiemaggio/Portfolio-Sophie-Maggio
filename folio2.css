@@ -517,6 +517,7 @@ footer p{
 }
 
 .center{
+background: #2D3C43;
 width: 50%;
 margin: auto;
 align-items: center;
@@ -558,3 +559,5 @@ justify-content: center;
       font-size: 1.6rem;
     }
   }
+
+  
