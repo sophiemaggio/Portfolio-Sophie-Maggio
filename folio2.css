@@ -519,10 +519,9 @@ footer p{
 .center{
 background: #2D3C43;
 width: 50%;
-margin: auto;
+margin-top: 0;
 align-items: center;
 justify-content: center;
-
 }
 
 .contact-moi{
@@ -547,6 +546,7 @@ justify-content: center;
   margin: auto;
   }
 
+  }
   @media screen and (max-width: 600px){
     footer p a{
       font-size: 1.5rem;
