@@ -84,8 +84,8 @@ header{
 /* Bouton remonter au top */
 
 #myBtn{
-  top: 20px;
-  right: 10px;
+  top: 5%;
+  right: 5%;
   width:5%;
   height: 25%;
   /* background:rgba(0, 0, 0, 0.25); */
