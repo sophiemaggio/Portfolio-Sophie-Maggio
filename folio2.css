@@ -100,7 +100,31 @@ header{
   animation-name : bounce;
   /* background-color: #555; */
 }
+/* Bouton2 remonter au top */
 
+#myBtn2{
+  top: 20px;
+  right: 10px;
+  width:5%;
+  height: 20%;
+  /* background:rgba(0, 0, 0, 0.25); */
+  background-image: url(images/boutonfusee.svg);
+  background-repeat: no-repeat;
+  position:fixed;
+  z-index:99999;
+  cursor: pointer;
+ 
+}
+#myBtn2:hover {
+  animation-name : bounce;
+  /* background-color: #555; */
+}
+
+
+.separateur{
+  height: 100px;
+  background: #2D3C43;
+}
 
 .logo{
     width: 100%;
@@ -431,7 +455,7 @@ aside{
   /* align-items: center; */
   margin-top: 20px;
   margin-bottom: 10rem;
-  min-width: 500px,
+  min-width: 500px;
 }
 
 aside img {
@@ -441,6 +465,15 @@ aside img {
     flex-flow: row wrap;
     align-items: center;
   }
+
+  aside a{
+grid-column: 2;
+text-decoration: none;
+color: #fff;
+font-size: 1.5rem;
+  }
+
+
   @media screen and (max-width: 320px){
    aside img{
      grid-column: span 3;
@@ -470,11 +503,12 @@ section img{
    width:15.5%;
     }
 
-   section p{
-     margin-top: 5rem;
-     flex-wrap: wrap;
-     align-content: space-around;
- display: block;
+.presentation {
+  display: flex;
+  flex-direction: column;
+  background: #2D3C43;
+    padding: 5rem;
+ /* display: block; */
  color: #fff;
  text-align: center;
  font-size: 1.8rem;
@@ -507,16 +541,20 @@ footer p a{
   text-decoration: none;
   color: #FFFFFF;
 }
-p{
-  margin:7rem;
-  text-align: center;
-}
 
 footer p{
   margin: 0.5rem;
 }
 
-.center flex{
+form{
+  margin-top: 100px;
+  background: #2D3C43;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+/* .center flex{
 display:flex;
 background: #2D3C43;
 padding: 10px;
@@ -524,7 +562,13 @@ width: 100%;
 margin-top: 0;
 align-items: center;
 justify-content: center;
-}
+} */
+
+
+
+
+
+
 
 /* .contact-moi{
   justify-content: center;
