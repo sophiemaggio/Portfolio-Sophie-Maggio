@@ -87,9 +87,9 @@ header{
   top: 20px;
   right: 10px;
   width:5%;
-  height: 20%;
+  height: 25%;
   /* background:rgba(0, 0, 0, 0.25); */
-  background-image: url(images/boutonfusee.svg);
+  background-image: url(images/fuseefleche.svg);
   background-repeat: no-repeat;
   position:fixed;
   z-index:99999;
@@ -449,10 +449,15 @@ color: #fff;
 font-size: 1.5rem;
   }
 
+  .lien:hover{
+    font-size: 1.8rem;
+  }
+
 
   @media screen and (max-width: 320px){
    aside img{
      grid-column: span 3;
+     width: 100%;
     }
   }
 
@@ -530,46 +535,8 @@ form{
   font-size: 1.8rem;
 }
 
-/* .center flex{
-display:flex;
-background: #2D3C43;
-padding: 10px;
-width: 100%;
-margin-top: 0;
-align-items: center;
-justify-content: center;
-} */
-
-
-
-
-
-
-
-/* .contact-moi{
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
-  width: 100%;
-
-
-}
-.contact-moi input {
-  width: 80%;
- 
- }
- textarea{
-  resize: none;
   
-  }
-  .txt {
-  width: 100%;
-  height: 20vh;
-  margin: auto;
-  } */
-
-  
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 320px){
     footer p a{
       font-size: 1.5rem;
       text-align: center;
@@ -579,6 +546,9 @@ justify-content: center;
     .caption-container {
       line-height: 2em;
       font-size: 1.6rem;
+    }
+    #myBtn{
+      min-width:20px;
     }
   }
 
