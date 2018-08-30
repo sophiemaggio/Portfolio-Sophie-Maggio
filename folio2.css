@@ -84,7 +84,7 @@ header{
 /* Bouton remonter au top */
 
 #myBtn{
-  bottom: 20px;
+  top: 20px;
   right: 10px;
   width:5%;
   height: 20%;
@@ -100,31 +100,7 @@ header{
   animation-name : bounce;
   /* background-color: #555; */
 }
-/* Bouton2 remonter au top */
 
-#myBtn2{
-  top: 20px;
-  right: 10px;
-  width:5%;
-  height: 20%;
-  /* background:rgba(0, 0, 0, 0.25); */
-  background-image: url(images/boutonfusee.svg);
-  background-repeat: no-repeat;
-  position:fixed;
-  z-index:99999;
-  cursor: pointer;
- 
-}
-#myBtn2:hover {
-  animation-name : bounce;
-  /* background-color: #555; */
-}
-
-
-.separateur{
-  height: 100px;
-  background: #2D3C43;
-}
 
 .logo{
     width: 100%;
