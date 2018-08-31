@@ -150,20 +150,20 @@ flex: auto;
 	/* transform: rotate(10deg); */
 	transition: all 1s;
 }
-.navbar-header {
+.navbarheader {
 	display: none;
   /* margin-top: 1rem; */
 }
 @media screen and (min-width: 400px) {
-	.navbar-header {
+	.navbar header {
     display: block;
 	}
 }
-@media screen and (min-width: 768px) {
-	.navbar-header {
+/* @media screen and (min-width: 768px) {
+	.navbar header {
 		/* margin-left: 1rem; */
-	}
-}
+	/* }
+} */ 
 
 .navbar-burger {
 	background: none;
