@@ -493,17 +493,18 @@ section img{
    width:15.5%;
     }
 
-.presentation {
-  display: flex;
-  flex-direction: column;
-  background: #2D3C43;
-    padding: 5rem;
- /* display: block; */
- color: #fff;
- text-align: center;
- font-size: 1.8rem;
- line-height: 2.5rem;
-    }
+    section p{
+      margin-top: 5rem;
+      flex-wrap: wrap;
+      align-content: space-around;
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+     }
+
+
 
     footer{
       display:flex;
