@@ -145,6 +145,15 @@ flex: auto;
 	}
 }
 
+.dans_le_print{
+display: none;
+text-align: center;
+}
+
+.dans_le_print li:hover{
+display:block;
+}
+
 .navbar:hover {
 	filter: hue-rotate(135deg);
 	/* transform: rotate(10deg); */
