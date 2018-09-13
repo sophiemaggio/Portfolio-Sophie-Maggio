@@ -145,12 +145,12 @@ flex: auto;
 	}
 }
 
-.dans_le_print li{
+ul .dans_le_print li{
 display: none;
 text-align: center;
 }
 
-.dans_le_print li:hover{
+ul .dans_le_print li:hover{
 display:block;
 }
 
