@@ -145,7 +145,7 @@ flex: auto;
 	}
 }
 
-.dans_le_print{
+.dans_le_print li{
 display: none;
 text-align: center;
 }
