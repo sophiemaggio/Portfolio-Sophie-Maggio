@@ -145,14 +145,6 @@ flex: auto;
 	}
 }
 
-ul .dans_le_print li{
-display: none;
-text-align: center;
-}
-
-ul .dans_le_print li:hover{
-display:block;
-}
 
 .navbar:hover {
 	filter: hue-rotate(135deg);
