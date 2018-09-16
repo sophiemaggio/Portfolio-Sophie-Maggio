@@ -413,7 +413,9 @@ h2{
     color: #FFFFFF;
     font-size: 2rem;
     letter-spacing: -0.1rem;
-    padding-left: 2rem;
+    padding-left: 3rem;
+    font-weight: 100;
+
   }
 
   @media screen and (max-width: 320px){
@@ -448,6 +450,18 @@ grid-column: 2;
 text-decoration: none;
 color: #fff;
 font-size: 1.5rem;
+  }
+  .prototype p {
+    /* font-family: "roboto"; */
+    font-weight: 100;
+    color:#FFFFFF;
+    font-size:3rem;
+    text-align: center;
+  
+  }
+ .prototype img{
+margin-bottom: -2rem;
+width: 20%;
   }
 
   .lien:hover{
