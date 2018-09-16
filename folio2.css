@@ -446,6 +446,7 @@ aside img {
   }
 
 aside a{
+  margin-top: 2rem;
 grid-column: 2;
 text-decoration: none;
 color: #fff;
