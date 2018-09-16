@@ -463,7 +463,11 @@ font-size: 1.5rem;
 margin-bottom: -2rem;
 width: 20%;
   }
-
+  .lien{
+    text-decoration: none;
+    text-align: center;
+    color:#FFFFFF;
+  }
   .lien:hover{
     font-size: 1.8rem;
   }
