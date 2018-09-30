@@ -428,11 +428,12 @@ h2{
 
 aside{
   display: grid;
-  grid-template-columns: 20% 60% 20%;
-  /* grid-template-columns: repeat(3, 1fr); */
-  row-gap: 2rem;
+  /* grid-template-columns: 25% 25% 25% 25%; */
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
   justify-items: center;
-  /* align-items: center; */
+  /* justify-content: stretch; */
+  align-items: center; 
   margin-top: 20px;
   margin-bottom: 10rem;
   min-width: 500px;
@@ -447,7 +448,7 @@ aside img {
   }
 
 aside a{
-  margin-top: 2rem;
+margin-top: 2rem;
 grid-column: 2;
 text-decoration: none;
 color: #fff;
