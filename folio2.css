@@ -429,7 +429,7 @@ h2{
 aside{
   display: grid;
   /* grid-template-columns: 25% 25% 25% 25%; */
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
   justify-items: center;
   /* justify-content: stretch; */
@@ -441,7 +441,7 @@ aside{
 
 aside img {
   /* opacity: 0.2; */
-    grid-column: 2; 
+    grid-column: 2 / span 2; 
     width: 100%;
     flex-flow: row wrap;
     align-items: center;
@@ -481,7 +481,7 @@ width: 20%;
 
   @media screen and (max-width: 320px){
    aside img{
-     grid-column: span 3;
+     grid-column: 1 / span 24;
      width: 100%;
     }
   }
