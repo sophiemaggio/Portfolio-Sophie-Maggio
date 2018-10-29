@@ -428,7 +428,7 @@ h2{
 
 aside{
   display: grid;
-  /* grid-template-columns: 25% 25% 25% 25%; */
+  /* grid-template-columns: 10% 40% 40% 10%; */
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
   justify-items: center;
@@ -465,7 +465,7 @@ font-size: 1.5rem;
   }
  .prototype img{
    padding-top: 2rem;
-margin-bottom: -2rem;
+/* margin-bottom: -2rem; */
 width: 20%;
   }
   .lien aside{
@@ -481,8 +481,8 @@ width: 20%;
 
   @media screen and (max-width: 320px){
    aside img{
-     grid-column: 1 / span 24;
-     width: 100%;
+     grid-column: 1 / span 4;
+     /* width: 100%; */
     }
   }
 
